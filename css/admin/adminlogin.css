@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://picsum.photos/2880/1920?image=737);
+    background-size: cover;
+    background-position:center;
+}
+
+.layer{
+    background-color: rgba(0, 34, 76, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    text-align: center;
+}
+
+.login-form{
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    transition: 0.5s;
+}
+
+.login-form:hover{
+    background-color: rgb(129, 128, 189, 0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-form h1{
+    margin: 0 0 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-shadow: 2px 2px rgba(4, 36, 78, 0.692);
+}
+
+.login-form input{
+    display:block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.login-form input[type="submit"]{
+    background-color: rgba(29, 202, 116, 0.301);
+    cursor: pointer;
+    border: none;
+}
+
+.login-form input[type="submit"]:focus{
+    background-color: rgba(29, 202, 116, 0.6);
+}
+
+.login-form input:focus{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.login-form input::placeholder{
+    color: white;
+}
+
+.login-form a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}

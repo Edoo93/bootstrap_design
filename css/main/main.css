@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/*
+INDEX STARTS HERE
+*/
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #000;
+}
+
+.carousel-caption h4{
+    text-shadow: 1px 1px 10px #000;
+}
+
+.icons-social{
+    display: inline-block;
+    color: #ffffff;
+}
+
+.fa-bolt{
+    color: #3b5998;
+}
+
+.fa-wrench{
+    color: #3b5998;
+}
+
+.fa-question{
+    color: #3b5998;
+}
+
+.fa-bolt, .fa-wrench, .fa-question{
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.facebookIcon:hover{
+    color: #3b5998;
+    text-shadow:
+    -1px -1px 0 #eee,  
+     1px -1px 0 #eee,
+    -1px  1px 0 #eee,
+     1px  1px 0 #eee;
+}
+
+.twitterIcon:hover{
+    color: #19c4f8;
+    text-shadow:
+    -1px -1px 0 #eee,  
+     1px -1px 0 #eee,
+    -1px  1px 0 #eee,
+     1px  1px 0 #eee;
+}
+
+.welcome{
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.welcome h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.welcomeHR{
+    width: 70%;               
+    background-color:#3b5998;
+    height: 3px;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+}
+.navbar-social{
+    border-bottom: 5px solid #3abb65;
+}
+
+.navbar-social i{
+    padding: 0 0 0 15px;
+}
+
+.navbar-main{
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.icons-social span{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+}
+
+li{
+    font-family: 'Lato' !important;
+    font-weight: bold;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.columnWork{
+    padding: 50px 0 50px 0;
+}
+
+.jumbotronHelp{
+    background-color: #3abb65 !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #06a147;
+    border-top: 1px solid #06a147;
+}
+
+.jumbotronContact{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.btnContact_jumbotron{
+    background-color: #eee !important;
+    border-radius: 20px !important;
+    border: 3px solid #3b5998 !important;
+    color: #3b5998 !important;
+    font-weight: bold !important;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.social{
+    margin-bottom: 150px;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3.5rem;
+}
+
+
+.social .fa-facebook{
+    color: #3b5998;
+}
+
+.social .fa-twitter{
+    color: #1DA1F2;
+}
+
+.social .fa-instagram{
+    color: #966842;
+}
+
+.social .fa-facebook:hover, .social .fa-instagram:hover, .social .fa-twitter:hover{
+    color: #343a40;
+}
+
+.connectText{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.connectText h1{
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    border-top: 4px solid #343a40 !important;
+    background-color: #f8f9fa !important;
+    font-family: 'Lato', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer h5{
+    font-weight: bold;
+}
+
+.bottomFooter{
+    padding: 1em;
+    border-top: 2px solid #d6d6d6;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.display-team{
+    margin-bottom: 150px;
+}
+
+footer img{
+    height: 20px;
+    margin: 0;
+}
+
+/*
+ADMIN PANEL STARTS HERE
+*/
+
+.adminLoginPanel{
+    height: 300px;
+    margin-top: 25%;
+    background-color: #3b5998;
+}
